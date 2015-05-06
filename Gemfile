@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'devise'
 gem 'bootstrap-sass'
 gem 'slim-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

@@ -1,2 +1,20 @@
-h1 Top#index
-p Find me in app/views/top/index.html.slim
+section.image-wrapper
+  .container.top
+    .row.hidden-xs
+      .pull-right
+        |Already have a Twitter account?
+        a.btn.btn-primary.btn-lg.outline href="user_omniauth_authorize(:twitter)"  Sign in
+        link_to
+        = link_to user_omniauth_authorize_path(:twitter), class: 'img' do
+          | インフォメーション
+          span
+    .row
+      .col-sm-6
+        h2 Make friends efficiently
+        h1 InterFav
+
+  .container.headline
+    .row
+      .col-sm-9
+        p Twitterでリアルな友達を見つかるソーシャル・マッチングサービス
+        a.btn.btn-primary.btn-lg.outline.blue href="#"  Start InterFav

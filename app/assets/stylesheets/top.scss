@@ -1,3 +1,82 @@
 // Place all the styles related to the top controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding-bottom: 20px;
+
+  .container {
+    font-family: 'Noto Sans', sans-serif;
+    color: #DADADA;
+  }
+
+
+  section.image-wrapper {
+    background-image: image_url("background-image.png");
+    background-repeat: no-repeat;
+    background-color: #050505;
+
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    min-height: 350px;
+  }
+
+  .btn.outline {
+    background: 0 0;
+    border-radius: 0;
+    border: 1px solid #DADADA;
+    color: #DADADA;
+    transition: color .3s, background-color .3s;
+  }
+
+  .btn.outline.blue {
+    padding: 10px 30px 10px 30px;
+    background: 0 0;
+    border-radius: 0;
+    border: 1px solid #2a70ca;
+    color: #DADADA;
+    background-color: #2a70ca;
+    transition: color .3s, background-color .3s, border-color .3s;
+  }
+
+  .btn.outline:hover {
+    color: #303030;
+    background-color: #DADADA;
+  }
+
+  .btn.outline.blue:hover {
+    color: #303030;
+    border-color: #DADADA;
+    background-color: #DADADA;
+  }
+  
+  .top {
+    .pull-right {
+      margin-top: 25px;
+      .btn {
+        padding: 4px 20px;
+        margin-left: 10px;
+      }
+    }
+    h1 {
+      font-size: 80px;
+      margin-top: 0px;
+    }
+    h2 {
+      margin-bottom: 0px;
+      font-size: 20px;
+    }
+  }
+
+  .headline {
+    margin-top: 25px;
+  }
+
+}
+
+
