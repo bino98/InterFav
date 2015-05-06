@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rename'
+gem 'puma'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
